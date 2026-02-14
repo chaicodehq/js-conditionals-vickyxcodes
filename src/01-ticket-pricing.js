@@ -23,6 +23,7 @@
  * @returns {number} The ticket price, or -1 for invalid input
  */
 export function getTicketPrice(age, isWeekend) {
+<<<<<<< HEAD
   // Step 1: validate input
   if (typeof age !== 'number' || age < 0) {
     return -1;
@@ -48,4 +49,7 @@ export function getTicketPrice(age, isWeekend) {
 
   // Step 4: return result
   return price;
+=======
+  // Your code here
+>>>>>>> parent of 96cb9a8 (update package.json)
 }
